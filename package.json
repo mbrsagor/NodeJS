@@ -1,0 +1,21 @@
+{
+  "name": "nodeJS",
+  "version": "1.0.0",
+  "description": "> I'm learning NodeJS for my another new projects purpose.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrsagor/NodeJS.git"
+  },
+  "keywords": [],
+  "author": "Mbr-Sagor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrsagor/NodeJS/issues"
+  },
+  "homepage": "https://github.com/mbrsagor/NodeJS#readme"
+}
