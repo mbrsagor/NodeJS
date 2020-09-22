@@ -7,3 +7,5 @@
 - Server side request.
 - Backend software development.
 
+##### How to run your node js development server?
+Go to your root folder run run the command ``node app.js``
