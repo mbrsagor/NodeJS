@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+var PORT = 5000
 
 
 var server = http.createServer(function (req, res) {
@@ -66,6 +67,6 @@ var server = http.createServer(function (req, res) {
 
 });
 
-server.listen(5000);
+server.listen(PORT);
 
 console.log("Starting development server at http://localhost:5000/");
