@@ -17,11 +17,16 @@ var server = http.createServer(function (req, res) {
             res.end();
         });
     } else if (req.url === '/about') {
-        res.writeHead(200, {
-            'Content-Type': 'text/html'
+        // res.writeHead(200, {
+        //     'Content-Type': 'text/html'
+        // })
+        // res.write('<h1>Hello, I am Sagor full-stack software developer...</h1>')
+        // res.end();
+        fs.readFile('templates/about.html', function(error, data){
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.write(data);
+            res.end();
         })
-        res.write('<h1>Hello, I am Sagor full-stack software developer...</h1>')
-        res.end();
     } else if(req.url === '/demo'){
         fs.writeFile('demo.text', 'Hey Sagor, how are you', function(error){
             if(error){
