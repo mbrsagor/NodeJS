@@ -40,6 +40,16 @@ var server = http.createServer(function (req, res) {
             res.write(data);
             res.end();
         });
+    } else if(req.url === '/blog'){
+        fs.readFile('templates/blog.html', function(error, data){
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.write(data);
+            res.end();
+        });
+    } else if(req.url === '/json'){
+        res.setHeader('Content-Type', 'application/json');
+        let information = {'name': 'Mbr-Sagor', 'age': 25, 'address': 'Dhaka, Bangladesh', 'phone': '01773474709', 'email': 'mbrsagor@gmail.com'}
+        res.end(JSON.stringify(information));
     }
 
 });
