@@ -56,6 +56,13 @@ var server = http.createServer(function (req, res) {
         let information = {'name': 'Mbr-Sagor', 'age': 25, 'address': 'Dhaka, Bangladesh', 'phone': '01773474709', 'email': 'mbrsagor@gmail.com'}
         res.end(JSON.stringify(information));
     }
+    else if(req.url === '/price'){
+        fs.readFile('templates/pricing.html', function(error, data){
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.write(data);
+            res.end();
+        })
+    }
 
 });
 

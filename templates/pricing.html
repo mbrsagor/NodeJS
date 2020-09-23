@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Mysite || Price</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
@@ -130,6 +130,108 @@
         .input-group-btn button {
             border-radius: 0;
         }
+
+        .price-area {
+            padding: 140px 0;
+        }
+
+        .price-area ul li {
+            list-style: none;
+        }
+
+        .menu-content h1 {
+            color: #222222;
+        }
+
+        .price-area .single-price {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            text-align: center;
+            background-color: #f9f9ff;
+            padding: 40px 20px;
+        }
+
+        .price-area .single-price .package-list {
+            padding-bottom: 30px;
+            padding-top: 15px;
+        }
+
+        .price-area .single-price .package-list ul li {
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+        }
+
+        .price-area .single-price .bottom-part {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .price-area .single-price .bottom-part .price-btn {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            background-color: #fff;
+            color: #222;
+            padding: 10px 50px;
+            font-weight: 600;
+            display: inline-block;
+            display: none;
+        }
+
+        .price-area .single-price .package-no {
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            font-weight: 300;
+            margin-left: auto;
+            margin-right: auto;
+            width: 140px;
+            height: 140px;
+            background-color: rgba(132, 144, 255, 0.1);
+            border-radius: 100px;
+            align-items: center;
+            display: grid;
+            border: 30px solid rgba(132, 144, 255, 0.1);
+        }
+
+        .price-area .single-price:hover {
+            transform: scale(1.05);
+            z-index: 2;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .primary-btn,
+        .facts-area,
+        .thumb .overlay-bg,
+        .price-area .single-price:hover,
+        .brands-area,
+        .about-banner,
+        .sb_bar {
+            background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+            background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+            background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        }
+
+        .price-area .single-price:hover .bottom-part .price-btn {
+            display: block;
+        }
+
+        .price-area .single-price:hover .package-no {
+            border-color: rgba(255, 255, 255, 0.21);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .price-area .single-price:hover h1,
+        .price-area .single-price:hover h4 {
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -166,68 +268,87 @@
         </div>
     </header>
 
-    <section class="overview">
+    <section class="price-area">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-uppercase text-center">Our latest news</h2>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <div class="blog_post">
-                                <div class="card">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title mb-0">How to install Node js on Mac OS</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="text-justify">Phosfluorescently provide access to 2.0 scenarios
-                                            vis-a-vis viral schemas. Credibly visualize professional relationships for
-                                            enterprise partnerships. Holisticly engineer error-free expertise for
-                                            enterprise imperatives. Dramatically integrate alternative applications and
-                                            intermandated e-tailers. Interactively initiate backend vortals and
-                                            plug-and-play intellectual capital.
-
-                                            Professionally reconceptualize progressive systems vis-a-vis leveraged
-                                            architectures. Objectively predominate exceptional paradigms with multimedia
-                                            based mindshare. Monotonectally productize clicks-and-mortar leadership
-                                            skills before granular partnerships. Interactively coordinate team building
-                                            methods of empowerment with interoperable processes. Globally grow
-                                            cutting-edge synergy for web-enabled growth strategies.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a class="text-dark mr-3" href="/">Read more >></a>
-                                        <a class="text-dark" href="/">23 SEP 2020 || 12:30 PM</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="blog_post">
-                                <div class="card">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title mb-0">How to install Python Django on Mac OS</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="text-justify">Phosfluorescently provide access to 2.0 scenarios
-                                            vis-a-vis viral schemas. Credibly visualize professional relationships for
-                                            enterprise partnerships. Holisticly engineer error-free expertise for
-                                            enterprise imperatives. Dramatically integrate alternative applications and
-                                            intermandated e-tailers. Interactively initiate backend vortals and
-                                            plug-and-play intellectual capital.
-
-                                            Professionally reconceptualize progressive systems vis-a-vis leveraged
-                                            architectures. Objectively predominate exceptional paradigms with multimedia
-                                            based mindshare. Monotonectally productize clicks-and-mortar leadership
-                                            skills before granular partnerships. Interactively coordinate team building
-                                            methods of empowerment with interoperable processes. Globally grow
-                                            cutting-edge synergy for web-enabled growth strategies.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a class="text-dark mr-3" href="/">Read more >></a>
-                                        <a class="text-dark" href="/">23 SEP 2020 || 12:30 PM</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Choose Your Plan</h1>
+                        <p>When someone does something that they know that they shouldn’t do, did they.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 single-price">
+                    <div class="top-part">
+                        <h1 class="package-no">01</h1>
+                        <h4>Python</h4>
+                        <p class="mt-10">Django Web App</p>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Secure Online Transfer</li>
+                            <li>Unlimited Styles for interface</li>
+                            <li>Reliable Customer Service</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-part">
+                        <h1>$650.90</h1>
+                        <a class="price-btn text-uppercase js-qwynlraxz" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 single-price">
+                    <div class="top-part">
+                        <h1 class="package-no">02</h1>
+                        <h4>Python</h4>
+                        <p class="mt-10">Flask Web App</p>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Secure Online Transfer</li>
+                            <li>Unlimited Styles for interface</li>
+                            <li>Reliable Customer Service</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-part">
+                        <h1>$199.00</h1>
+                        <a class="price-btn text-uppercase js-qwynlraxz" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 single-price">
+                    <div class="top-part">
+                        <h1 class="package-no">03</h1>
+                        <h4>JavaScrip</h4>
+                        <p class="mt-10">Node JS and Express</p>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Secure Online Transfer</li>
+                            <li>Unlimited Styles for interface</li>
+                            <li>Reliable Customer Service</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-part">
+                        <h1>$220.00</h1>
+                        <a class="price-btn text-uppercase js-qwynlraxz" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 single-price">
+                    <div class="top-part">
+                        <h1 class="package-no">04</h1>
+                        <h4>JavaScrip</h4>
+                        <p class="mt-10">React and Angular.JS</p>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Secure Online Transfer</li>
+                            <li>Unlimited Styles for interface</li>
+                            <li>Reliable Customer Service</li>
+                        </ul>
+                    </div>
+                    <div class="bottom-part">
+                        <h1>$405.10</h1>
+                        <a class="price-btn text-uppercase js-qwynlraxz" href="#">Buy Now</a>
                     </div>
                 </div>
             </div>
