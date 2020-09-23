@@ -1,13 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <style type="text/css">
+        body {
+            color: #777777;
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625em;
+        }
+
+        .header_main {
+            background: #ffffff;
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+            font-size: 20px !important;
+        }
+
+        .header_main a {
+            padding: 0 8px 0px 8px;
+            text-decoration: none;
+            display: inline-block;
+            color: #222;
+            font-weight: 500;
+            font-size: 12px;
+            text-transform: uppercase;
+            outline: none;
+            transition: .6s;
+        }
+
+        .header_main a:hover {
+            color: #0056b3;
+        }
+
+        .overview {
+            background: #f9f9ff;
+            padding: 100px 0;
+        }
+
+        .overveiw_left_text h6 {
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        .overveiw_left_text h2 {
+            margin: 20px 0;
+            font-size: 60px;
+            text-transform: uppercase;
+            color: #222222;
+        }
+
+        .overveiw_left_text a {
+            background: #8490ff;
+            line-height: 42px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: none;
+            color: #fff;
+            display: inline-block;
+            font-weight: 500;
+            transition: all 0.3s ease 0s;
+            text-transform: uppercase;
+        }
+
+        .overveiw_left_text a:hover {
+            text-decoration: none;
+            box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+        }
+
+        .about_pic img {
+            width: 100%;
+        }
+
+        .count_down {
+            background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+            background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+            padding: 50px 0;
+        }
+
+        .single-fact h1 {
+            font-weight: 700;
+        }
+
+        .single-fact h1,
+        .single-fact p {
+            color: #fff;
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #04091e;
+            padding: 50px 0;
+        }
+
+        footer .single-footer-widget h4 {
+            color: #fff;
+            margin-bottom: 25px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+
+        footer .single-footer-widget p,
+        a {
+            color: #ffffff;
+        }
+
+        .single-footer-widget .form-control {
+            border: none;
+            width: 80% !important;
+            font-weight: 300;
+            background: #f9f9ff;
+            padding-left: 20px;
+            border-radius: 0;
+            font-size: 14px;
+            line-height: normal !important;
+            color: #222;
+        }
+
+        .input-group-btn button {
+            border-radius: 0;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>Hello there I'm blog page</h2>
+
+
+    <header class="header_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="/">I'm Sagor</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active"> <a class="nav-link" href="/">Home <span
+                                            class="sr-only">(current)</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="/blog">Blog</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="/json">Json</a> </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="overveiw_left_text">
+                        <h6>Hello there,</h6>
+                        <h2>I'm Sagor</h2>
+                        <h4>Full-stack software engineer</h4>
+                        <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to
+                            the ghost showing Scrooge some different futures.</p>
+
+                        <ol>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                            <li>Demo link</li>
+                        </ol>
+
+                        <a href="/contact">Contact Me</a>
+                        <a href="/contact">Hire Me</a>
+                        <a href="/contact">Blog Post</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_pic">
+                        <img src="https://res.cloudinary.com/mbrsagor/image/upload/v1595691413/Profile_pic/sagor_field_buzz_dhbfeu.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="count_down">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center single-fact">
+                    <h1 class="counter">2536</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center single-fact">
+                    <h1 class="counter">2536</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center single-fact">
+                    <h1 class="counter">2536</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center single-fact">
+                    <h1 class="counter">2536</h1>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-footer-widget">
+                        <h4>About Me</h4>
+                        <p>
+                            We have tested a number of registry fix and clean utilities and present our top 3 list on
+                        </p>
+                        <p class="footer-text">
+                            Copyright ©<script type="text/javascript" async=""
+                                src="https://www.google-analytics.com/analytics.js"></script>
+                            <script type="text/javascript">
+                                document.write(new Date().getFullYear());
+                            </script>2020 All rights reserved | This template is made with by <a
+                                href="https://github.com/mbrsagor" class="js-qwynlraxz">Sagor</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>
+                            We have tested a number of registry fix and clean.
+                        </p>
+                        <div class="" id="mc_embed_signup">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="EMAIL"
+                                        placeholder="Enter Email Address "
+                                        onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''"
+                                        onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Enter Email Address '"
+                                        required="">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+                                            <span class="lnr lnr-arrow-right">Send</span>
+                                        </button>
+                                    </div>
+                                    <div class="info"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-footer-widget">
+                        <h4>Follow Me</h4>
+                        <p>Follow me on social media</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        function clickMe() {
+            alert("Welcome to our website.");
+        }
+    </script>
 </body>
+
 </html>
