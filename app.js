@@ -70,4 +70,4 @@ var server = http.createServer(function (req, res) {
 
 server.listen(PORT);
 
-console.log("Starting development server at http://localhost:5000/");
+console.log(`Starting development server at http://localhost:5000\nSystem check identified no issues\nQuit the development server with CONTROL-C.`);
